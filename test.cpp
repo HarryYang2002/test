@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+void sayHello() {}
+
 void PrintInfo()
 {
   cout << "My anme" << endl;
