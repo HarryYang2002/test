@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void sayHello() {}
+char sayHello() {return 'c';}
 
 void PrintInfo()
 {
@@ -12,6 +12,7 @@ void PrintInfo()
 int main()
 {
   PrintInfo();
+  char c = sayHello();
   cout << "Hello World!" << endl;
   return -;
 }
