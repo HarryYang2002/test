@@ -13,5 +13,5 @@ int main()
 {
   PrintInfo();
   cout << "Hello World!" << endl;
-  return -;
+  return 0;
 }
